@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.App-results {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.table-headers,
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.series {
+  width: calc(20% - 10px);
+}
+.shape {
+  width: calc(20% - 10px);
+}
+.width {
+  width: calc(20% - 10px);
+}
+.length {
+  width: calc(20% - 10px);
+}
+.color {
+  width: calc(20% - 10px);
+}
+.glass_type {
+  width: calc(20% - 10px);
+}
